@@ -58,3 +58,10 @@ def get_name_and_age():
 name, age = get_name_and_age()
 print("Name:", name)
 print("Age:", age)
+
+# Function with variable number of arguments
+def print_numbers(*args):
+    for num in args:
+        print(num)
+
+print_numbers(1, 2, 3, 4)
