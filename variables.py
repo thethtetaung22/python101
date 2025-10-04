@@ -49,3 +49,12 @@ def greet(user="Guest"):
 
 greet("Thet")
 greet()  # Uses default value
+
+
+# Function with multiple return values
+def get_name_and_age():
+    return "Alice", 30
+
+name, age = get_name_and_age()
+print("Name:", name)
+print("Age:", age)
