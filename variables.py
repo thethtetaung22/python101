@@ -33,3 +33,19 @@ def greet(user):
     print("Hello,", user)
 
 greet("Thet")
+
+# ...existing code...
+
+# Function with parameters and return value
+def add(a, b):
+    return a + b
+
+result = add(5, 3)
+print("Sum:", result)
+
+# Function with default parameter
+def greet(user="Guest"):
+    print("Hello,", user)
+
+greet("Thet")
+greet()  # Uses default value
